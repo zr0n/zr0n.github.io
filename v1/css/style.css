@@ -1,0 +1,71 @@
+button{
+	margin: 5px;
+}
+body, html{
+	height: 100%;
+}
+#conteudoForm textarea{
+	  max-height:157px;
+	  max-width:419px;
+	  height:157px;
+	  width:419px;
+	  
+}
+#wrap{
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding-bottom:60px;
+  overflow: none;
+}
+#conteudoForm input{
+	width:419px;
+}
+.clearfix, .col-md-2{
+	margin-top:10px;
+}
+#conteudo2 h6, h1, button, a, #footerModal{
+	color:#22B2EB !important;
+}
+#conteudo2{
+	  max-height: 100%;
+}
+.page-header{
+	border-bottom:1px solid #22B2EB;
+}
+.col-md-2 button{
+	width:100%;
+}
+#background {
+	width: 100%;
+	height: 100%;
+	color:#C4C4C4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	overflow: hidden;
+	word-wrap:break-word;
+	opacity:0.35;
+	-moz-opacity: 0.35;
+	filter: alpha(opacity=35);
+}
+#footer{
+	height: 60px;
+	width: 100%;
+	background-color: #f5f5f5;
+	position:fixed;
+	margin-top:-60px;
+	bottom:0;
+}
+#conteudoTrab a img{
+	padding: 5px;
+}
+.modal{
+	overflow:hidden;
+}
