@@ -186,6 +186,8 @@ var CategoriesService = /** @class */ (function () {
     };
     CategoriesService.prototype.searchJob = function (jobId) {
         var jobFound;
+        console.log("Jobs");
+        console.log(this.allJobs);
         this.allJobs.map(function (job) {
             if (job.id == jobId)
                 jobFound = job;
